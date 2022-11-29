@@ -1,4 +1,0 @@
-Day three
-Dozent Dosko.
-#print
-Präs Dosko
