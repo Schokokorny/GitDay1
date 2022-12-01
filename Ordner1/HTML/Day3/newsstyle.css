@@ -1,0 +1,35 @@
+/* Top header */
+#topheader {
+    background-color: grey;
+    
+}
+
+
+/* Head topic */
+#headlineer {
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+/* secound topic */
+#secondhead {
+    text-transform: uppercase;
+}
+
+/* the main text of the newspaper */
+.maintext {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Referer on the bottom of the site */
+#refer {
+    font-size: 10;
+}
+
+/* The first word of a article */
+.firstword {
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20;
+}
