@@ -1,0 +1,54 @@
+/* Pixels example */
+.pixels { 
+    margin:10px;
+    background-color: gray;
+  }
+  
+  /* Points example */
+   .points { 
+     font-size:14pt; 
+  }
+  
+  /* Inches example */
+   .inches { 
+     font-size:0.5in; 
+  }
+  
+  /* Centimeters example */
+  .centimeters { 
+    font-size:1.5cm; 
+  }
+  
+  /* Millimeters example */
+   .millimeters { 
+     font-size:5mm; 
+  }
+  
+  /* Picas example */
+   .picas { 
+     font-size:1pc; 
+  }
+  
+  
+  /* Ems example */
+   .ems { 
+     font-size:2em; 
+  }
+  
+  
+  /* Exs example */
+   .exs { 
+     width:20ex; 
+  }
+  
+  
+  /* Percent example */
+   .percent { 
+     font-size:120%; 
+  }
+  
+  .viewport{
+    background-color: green;
+    height: 20vh;
+    width: 50vw;
+  }
