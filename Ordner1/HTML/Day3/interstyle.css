@@ -1,0 +1,20 @@
+/* Bodystyle */
+
+div {
+    margin: 5;  
+  }
+  
+  h1 {
+      color: blue;
+  }
+
+  
+  img {
+      width: 300;
+      height: 300;
+  }
+  
+#fith p {
+    font-weight: 400;
+}
+  /*Bodystyle */
