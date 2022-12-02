@@ -1,0 +1,60 @@
+/* Corpus */
+
+.corpus {
+    margin: auto;
+    width: 600px;
+    font-family: 'Archivo', sans-serif;
+    
+}
+
+/* Navigation */
+.navigation {
+    background-color: whitesmoke;
+    position: fixed;
+    width: 600px;
+    top: 0px;
+}
+
+#mustache {
+    width: 20px;
+}
+
+#login {
+}
+
+/* Heroic */
+
+#topic{
+    position: absolute;
+    top: 220px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 3px black;
+    width: 600;
+}
+
+img {
+    width: 600px;
+}
+
+
+/* Body */
+
+#subheadliner {
+ font-weight: bold;
+}
+
+h3 {
+    background-color: rgb(206, 203, 203);
+}
+
+
+.firstword {
+    font-weight: bold;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: rgb(206, 203, 203);
+}
