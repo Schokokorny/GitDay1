@@ -1,0 +1,106 @@
+.corpus {
+    font-size: 20px;
+    width: 500px;
+    height: 600px;
+    background: radial-gradient(ellipse at center, #070707 0%, #CBA229 50%, #750000 100%);
+}
+
+.item {
+    width: 40px;
+    height: 50px;
+    background-color: red;
+    display: inline-block;
+    transition: width 2s, height 2s, transform 2s;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.item:hover {
+    /* background: green;
+    background-image: url(https://miro.medium.com/max/840/1*d5g31wvUpmILqzge216Fug.png)
+    width: 80px;
+    height: 80px;
+    transform: rotate(360deg);*/
+        -webkit-transform: rotate(-360deg);
+        background: #d1e000;
+        border-radius: 50px;
+        width: 50px;
+} 
+
+
+.rotate {
+    /* -webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out; */
+	transition: all 1s ease-in-out;
+}
+
+
+/* advanced */
+
+
+
+.page {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: minmax(50px, auto);
+    gap: 20px 20px;
+    margin: 20px;
+    max-width: 1200px;
+    height: 1200px;
+    margin: auto;
+
+
+}
+.picture {
+    border: 1px solid red;
+}
+
+ #picture1 {
+    grid-row: 1/4; 
+    grid-column: 1/2; 
+    background-image: url(../sprites/chad.png) ;
+    background-repeat: round;
+
+}
+ 
+#picture2 {
+    grid-row: 1/8;
+    grid-column: 2/3; 
+    background-image: url(../sprites/cheese.jpg);
+    height: auto;
+    background-repeat: round;
+
+} 
+
+.leri {
+    display: flex;
+    gap: 20px;
+    grid-row: 4/8;
+}
+
+#picture3 {
+    width: 50%;
+    background-image: url(../sprites/rickAst.jpg);
+    background-repeat: round;
+
+} 
+#picture4 {
+    width: 50%;
+    background-image: url(../sprites/wien.jpg);
+    background-repeat: round;
+
+} 
+#picture5 {
+    background-image: url(../sprites/chad.png);
+    background-repeat: round;
+    grid-row: 8/12;
+
+}
+
+#picture6 {
+    background-image: url(../sprites/chad.png);
+    background-repeat: round;
+    grid-row: 8/12;
+
+}

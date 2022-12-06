@@ -29,6 +29,8 @@
     color: rgb(255, 255, 255);
     text-shadow: 1px 2px 3px black;
     width: 600;
+    z-index: -1;
+
 }
 
 img {
