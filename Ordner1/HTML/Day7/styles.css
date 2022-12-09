@@ -1,0 +1,68 @@
+@import url(_var.scss);
+#icon {
+  background-image: url(../sprites/rickAst.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10vh;
+}
+
+.nav {
+  background-color: white;
+  background-image: linear-gradient(black, #3C3C3C);
+  height: .nav 10vh;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .button {
+  display: inline;
+  border: solid 1px black;
+  margin: 10px;
+  padding: 5px;
+  color: white;
+  width: auto;
+  height: auto;
+}
+.nav .button:hover {
+  background-color: aquamarine;
+}
+
+.corpus {
+  height: auto;
+}
+.corpus #hero {
+  background-image: url(../sprites/chad.png);
+  background-size: cover;
+  height: 800px;
+  width: auto;
+  -o-object-fit: fill;
+     object-fit: fill;
+  color: whitesmoke;
+  font-size: xx-large;
+}
+.corpus #hero #herotext {
+  position: relative;
+  top: 4vh;
+  left: 4vh;
+}
+
+.bottom {
+  background-color: grey;
+  background-image: linear-gradient(#3C3C3C, lightgrey);
+  width: auto;
+  height: 8vh;
+}
+.bottom #bottomtext {
+  color: whitesmoke;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: auto;
+  height: 15vh;
+  background-color: grey;
+  background-image: linear-gradient(lightgrey, grey, black);
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */

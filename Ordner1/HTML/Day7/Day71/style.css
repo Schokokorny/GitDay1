@@ -1,0 +1,106 @@
+.links {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  padding: 1vh;
+  justify-content: space-between;
+  background-color: grey;
+}
+.links .button {
+  margin: 1vh;
+  padding: 1vh;
+  background-color: gray;
+  background-image: radial-gradient(red blue);
+}
+.links .button:hover {
+  background-color: yellow;
+}
+
+.corpus {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25% 25% 25%;
+  -moz-column-gap: 2vh;
+       column-gap: 2vh;
+  width: auto;
+  height: 200vh;
+}
+.corpus .foto {
+  margin: 1vh;
+  background-repeat: round;
+}
+
+#pic1 {
+  background-image: url(../../sprites/chad.png);
+  background-size: cover;
+}
+#pic1:hover {
+  background-image: url(../../sprites/rickAst.jpg);
+  background-size: cover;
+  transition: all 2s;
+}
+
+#pic2 {
+  background-image: url(../../sprites/rickAst.jpg);
+}
+#pic2:hover {
+  background-image: url(../../sprites/sshort.gif);
+  background-size: cover;
+  transition: all 2s;
+}
+
+#pic3 {
+  background-image: url(../../sprites/chad.png);
+  background-size: cover;
+}
+#pic3:hover {
+  background-image: url(../../sprites/rickAst.jpg);
+  background-size: cover;
+  transition: all 2s;
+}
+
+#pic4 {
+  background-image: url(../../sprites/rickAst.jpg);
+}
+#pic4:hover {
+  background-image: url(../../sprites/sshort.gif);
+  background-size: cover;
+  transition: all 2s;
+}
+
+#pic5 {
+  background-image: url(../../sprites/chad.png);
+  background-size: cover;
+}
+#pic5:hover {
+  background-image: url(../../sprites/rickAst.jpg);
+  background-size: cover;
+  transition: all 2s;
+}
+
+#pic6 {
+  background-image: url(../../sprites/rickAst.jpg);
+}
+#pic6:hover {
+  background-image: url(../../sprites/sshort.gif);
+  background-size: cover;
+  transition: all 2s;
+}
+
+#pic7 {
+  background-image: url(../../sprites/rickAst.jpg);
+}
+#pic7:hover {
+  background-image: url(../../sprites/sshort.gif);
+  background-size: cover;
+  transition: all 2s;
+}
+
+#pic8 {
+  background-image: url(../../sprites/rickAst.jpg);
+}
+#pic8:hover {
+  background-image: url(../../sprites/sshort.gif);
+  background-size: cover;
+  transition: all 2s;
+}/*# sourceMappingURL=style.css.map */

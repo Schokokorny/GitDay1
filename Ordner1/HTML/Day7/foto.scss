@@ -1,0 +1,29 @@
+// @import url(_variable.scss);
+
+
+.links {  
+    border: $cborder;
+    background-color: aqua;
+}
+
+.button{
+ border: solid 1px black;
+ background-color: darkblue;
+}
+
+
+.corpus {
+    border: $cborder;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: darkcyan;
+
+
+    .foto{
+        border: $pborder;
+        background-color: darkcyan;
+    }
+
+
+}

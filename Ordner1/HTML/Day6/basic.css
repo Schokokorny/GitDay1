@@ -52,9 +52,7 @@
 
 
 }
-.picture {
-    border: 1px solid red;
-}
+
 
  #picture1 {
     grid-row: 1/4; 

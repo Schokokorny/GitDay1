@@ -1,0 +1,115 @@
+@import "_var.scss";
+
+// Navigaiton
+
+.links {
+    border: $bborder;
+    display: flex;
+    flex-direction: row;
+    padding: 1vh;
+    justify-content: space-between;
+    background-color: $navbg;
+
+    .button{
+        margin: 1vh;
+        padding: 1vh;
+        background-color: gray;
+        background-image: radial-gradient(red blue);
+        &:hover{
+            background-color: yellow;
+    }
+}
+}
+
+.corpus {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:25% 25% 25% 25%;
+    column-gap: 2vh;
+    width: auto;
+    height: 200vh;
+   .foto{
+        margin: 1vh;
+        background-repeat: round;
+    }
+}
+
+// Pictures
+
+#pic1 {
+    background-image: url(../../sprites/chad.png);
+    background-size: cover;
+
+    &:hover{
+        background-image: $rickin;
+        background-size: cover;
+        transition: $transi;
+    }
+}
+
+#pic2 {
+ background-image: url(../../sprites/rickAst.jpg);
+    &:hover {
+        background-image: $chadin;
+        background-size: cover;
+        transition: $transi;
+ }
+}
+ 
+#pic3 {
+    background-image: url(../../sprites/chad.png);
+    background-size: cover;
+
+
+    &:hover{
+        background-image: $rickin;
+        background-size: cover;
+        transition: $transi;
+    }
+}
+
+#pic4 {
+ background-image: url(../../sprites/rickAst.jpg);
+    &:hover {
+        background-image: $chadin;
+        background-size: cover;
+        transition: $transi;
+ }
+}
+
+#pic5 {
+    background-image: url(../../sprites/chad.png);
+    background-size: cover;
+
+    &:hover{
+        background-image: $rickin;
+        background-size: cover;
+        transition: $transi;
+    }
+}
+
+#pic6 {
+ background-image: url(../../sprites/rickAst.jpg);
+    &:hover {
+        background-image: $chadin;
+        background-size: cover;
+        transition: $transi;
+ }
+}
+#pic7 {
+    background-image: url(../../sprites/rickAst.jpg);
+       &:hover {
+           background-image: $chadin;
+           background-size: cover;
+           transition: $transi;
+
+    }
+   }
+#pic8 {
+    background-image: url(../../sprites/rickAst.jpg);
+       &:hover {
+           background-image: $chadin;
+           background-size: cover;
+           transition: $transi;
+    }
+}
