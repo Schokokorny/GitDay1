@@ -49,3 +49,56 @@ document.write(cut_fruits[5]+"<br>");
 document.write(cut_fruits[6]+"<br>");
 document.write(cut_fruits[7]+"<br>");
 document.write(cut_fruits[8]+"<br>");
+
+
+// Advanced
+// E1
+let a = 7;
+let b = 14;
+let c = "21";
+let d = '36';
+let e = 42;
+
+var summe = a+b+c*1+d*1+e;
+console.log("summe = " +summe);
+
+let f = '1';
+let g = 15;
+let h = 8;
+let i = "1";
+
+var multi = (f*1)*g*h*(i*1);
+console.log("multi = " +multi);
+document.write(summe/multi + "<br>");
+
+// E2
+
+let people =["Greg", "Mary", "Devon", "James"];
+// remove greg
+people.shift();
+// add Matt
+people.unshift("Matt");
+// remove James
+people.pop();
+// Add me
+people.push("Stefan")
+console.log(people);
+// slice
+console.log(people.slice(2));
+// Indexof Mary
+console.log(people.indexOf("Mary"));
+// IndexOf Foo
+console.log(people.indexOf("Foo"));
+// E2 Part 2
+let humans = ["Greg", "Mary", "Devon", "James"];
+humans.splice(2,1, "Elizabeth", "Anna");
+console.log(humans);
+// E3
+var multidimensional = [ [1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 25, 7], [21, 4, 6, 17], [3, 5, 26, 3] ];
+console.log(multidimensional[1][1]+" "+multidimensional[4][2]+" "+multidimensional[5][3]+" "+multidimensional[2][3]+" "+multidimensional[2][1]);
+
+// Challange Exercise
+
+var nicesentence = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties$flow$down;$actions$flow$up"
+var second = nicesentence.replaceAll("$"," ");
+document.write(second)
