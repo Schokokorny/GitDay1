@@ -101,4 +101,4 @@ console.log(multidimensional[1][1]+" "+multidimensional[4][2]+" "+multidimension
 
 var nicesentence = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties$flow$down;$actions$flow$up"
 var second = nicesentence.replaceAll("$"," ");
-document.write(second)
+document.write(second);

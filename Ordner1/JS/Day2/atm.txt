@@ -1,0 +1,14 @@
+Inside an ATM bank machine there are notes of 100, 50, 20, and 10 EUR. Create an algorithm that prompts the user to enter the amount of money he or she wants to withdraw (using an integer value) and then displays the least number of notes the ATM should give. For example, if the user enters an amount of 280 EUR, the algorithm should instruct the ATM to give:  
+
+
+2 notes of 100 EUR,
+
+1 note of  50 EUR,
+
+1 note of 20 EUR and
+
+1 note of 10 EUR.
+
+b) Expand the procedure to a real-life case when, for instance, 50 EUR notes are not available anymore. Expand the algorithm to cover all denominations and handle the cases like “60 EUR is not possible, I do not have 10 EUR notes at this moment”  
+
+c) At what point would you send a message to the bank that a specific ATM machine should be refilled?
